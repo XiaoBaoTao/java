@@ -25,3 +25,38 @@ int age = 1;
 
 ### 1.4 数据类型 
 
+Java是强数据类型；
+
+##### Primitive Type:
+
+整数：
++ byte 
++ short   2 bytes
++ int 
++ long 
+
+浮点型：
+
++ float 
++ double 
+
+字符：
+
++ char 
+
+布尔：
+
++ boolean 
+
+##### Reference Type 
+
++ String 
++ function 
++ object 
++ 
+
+
+
+
+
+
