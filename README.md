@@ -15,7 +15,7 @@
 + null
 + string 双引号
 
-### 1.3 变量 
+#### 1.2.1 变量 
 Variables 
 经常改变
 username & password 
@@ -23,7 +23,7 @@ username & password
 int age = 1;
 ```
 
-### 1.4 数据类型 
+#### 1.2.2 数据类型 
 
 Java是强数据类型；
 
@@ -53,7 +53,13 @@ Java是强数据类型；
 + String 
 + function 
 + object 
-+ 
+
+#### 1.2.3  变量 
+
+变量名不能重复定义.
+
+变量在使用前必须赋值。
+
 
 
 
