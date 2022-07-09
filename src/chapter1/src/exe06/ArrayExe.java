@@ -17,10 +17,13 @@ public class ArrayExe {
             System.out.println(names[i]);
             records[i] = names[i];
         }
+        int result = Arrays.binarySearch(items, 434);
+        System.out.println(result);
 
         int maxValue = Arrays.stream(items).max().getAsInt();
+        int sumValue = Arrays.stream(items).sum();
+        System.out.println("sum is " + sumValue);
         System.out.printf("the max value of %s is %s \n", Arrays.toString(items), maxValue);
         System.out.println(Arrays.toString(records));
-
     }
 }

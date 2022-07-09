@@ -330,11 +330,17 @@ public class ArrayExe {
 }
 
 ```
+求和或求最大值
+```java
+        int maxValue = Arrays.stream(items).max().getAsInt();
+        int sumValue = Arrays.stream(items).sum();
+```
 
 
 
+```java
 
-
+```
 
 
 
