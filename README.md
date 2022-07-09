@@ -114,3 +114,9 @@ public class ForceConvert {
 ```
 强制转换可能会损失精度；
 
+获取数据类型
+```java
+public static String getType(Object o) {
+    return o.getClass().toString();
+}
+```
