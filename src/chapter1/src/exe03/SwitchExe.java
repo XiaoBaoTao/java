@@ -8,9 +8,14 @@ public class SwitchExe {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         switch (number) {
-            case 1 -> System.out.println("one");
-            case 2 -> System.out.println("two");
-            default -> System.out.println("default");
+            case 1:
+                System.out.println("one");
+                break;
+            case 2:
+                System.out.println("two");
+                break;
+            default:
+                System.out.println("default");
         }
     }
 }
