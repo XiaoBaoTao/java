@@ -159,3 +159,34 @@ public static String getType(Object o){
 `&&` 短路运算符. 左边为false就不再执行了。
 
 `||` 无论左边为啥，右边都会执行
+
+
+### 1.4 条件控制语句
+
+#### if else 
+
+```text
+if 
+else
+if
+elif
+elif
+else
+```
+
+#### switch case 
+
+```java 
+public class SwitchExe {
+    public static void main(String[] args) {
+        System.out.println("please input a number: ");
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        switch (number) {
+            case 1 -> System.out.println("one");
+            case 2 -> System.out.println("two");
+            default -> System.out.println("default");
+        }
+    }
+}
+```
