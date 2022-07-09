@@ -337,10 +337,23 @@ public class ArrayExe {
 ```
 
 
+### 1.9 方法
 
+方法的目的是复用
+
+传入参数，返回值；
 ```java
-
+    public static String concat(int a, int b) {
+        return String.valueOf(a) + String.valueOf(b);
+    }
 ```
+
+
+#### 方法重载
+
+方法名相同，但是参数不同，比如个数，或者类型不同
+
+
 
 
 
