@@ -235,3 +235,39 @@ public class RandomExe {
     }
 }
 ```
+
+### 1.7 Idea的常规设置和快捷键
+
+idea的项目结构
+
+```text
+└── src    --project 
+    └── chapter1  -- module
+        ├── chapter1.iml
+        └── src
+            ├── ForceConvert.java
+            ├── ForceConvertExample.java
+            ├── Hello.java
+            ├── exe01  -- package 
+            │   ├── Exe01.java  -- class 
+            │   ├── Exe02.java
+            │   └── Exe03.java
+            ├── exe02
+            │   ├── Exe01.java
+            │   ├── Exe02.java
+            │   ├── LogicOperator.java
+            │   ├── NumberSplit.java
+            │   ├── StringExe.java
+            │   └── TernaryOperator.java
+            ├── exe03
+            │   ├── Exe01.java
+            │   ├── Exe02.java
+            │   └── SwitchExe.java
+            ├── exe04
+            │   ├── Exe01.java
+            │   └── Exe02.java
+            └── exe05
+                └── RandomExe.java
+```
+
+project -> module -> package -> class 
