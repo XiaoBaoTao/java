@@ -60,6 +60,19 @@ Java是强数据类型；
 
 变量在使用前必须赋值。
 
+变量的范围只限于{}之内。 
+
+
+#### 1.2.4 键盘录入
+
+```java
+        Scanner sc = new Scanner(System.in);
+        System.out.println("please input your name: ");
+        if (sc.hasNext()) {
+            System.out.printf("You just inputted: %s", sc.next());
+        }
+
+```
 
 
 
