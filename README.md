@@ -270,18 +270,18 @@ idea的项目结构
                 └── RandomExe.java
 ```
 
-project -> module -> package -> class 
+project -> module -> package -> class
 
-操作步骤： 
+操作步骤：
 
-1. 创建一个project 
-2. 创建一个module 
-3. 创建package 
-4. 创建class 
+1. 创建一个project
+2. 创建一个module
+3. 创建package
+4. 创建class
 5. 编译代码
-6. 运行代码 
+6. 运行代码
 
-##### idea常用的快捷键 
+##### idea常用的快捷键
 
 `psvm`: 快速生成 main 方法
 `sout`: 快速生成print
@@ -289,21 +289,42 @@ project -> module -> package -> class
 `alt + enter`: 代码修正提示
 `ctrl +x`: 剪切一行
 
-
-##### 删除module 
+##### 删除module
 
 点击module, 右键，选择remove module
 
+### 1.8 数组
 
+数组是一组包含数据类型`相同`的容器。
 
-### 1.8 数组 
+#### 1.8.1 数组的初始化
 
-数组是一组包含数据类型`相同`的容器。 
++ 静态初始化
 
+`
+int[] numbers = {123,34,34,45};
+`
 
++ 动态初始化
 
+`
+int[] numbers = new int[5];
+`
 
-
+```java
+public class ArrayExe {
+    public static void main(String[] args) {
+        System.out.println("Hello?");
+        int[] items = {12, 23, 434};
+        String[] names = {"zoe", "Pi", "Zh"};
+        for (int item : items) {
+            System.out.println(item);
+        }
+        System.out.println(Arrays.toString(items));
+        System.out.println(Arrays.toString(names));
+    }
+}
+```
 
 
 
