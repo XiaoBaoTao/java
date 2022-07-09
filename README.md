@@ -149,21 +149,20 @@ public static String getType(Object o){
         String nb=String.valueOf(221412);
 ```
 
-##### 逻辑运算符 
+##### 逻辑运算符
 
-`|` or `&` or `^` or `!` 
-`^`相同为True, 不同为False 
+`|` or `&` or `^` or `!`
+`^`相同为True, 不同为False
 
-`||` or `&&` 
+`||` or `&&`
 
 `&&` 短路运算符. 左边为false就不再执行了。
 
 `||` 无论左边为啥，右边都会执行
 
-
 ### 1.4 条件控制语句
 
-#### if else 
+#### if else
 
 ```text
 if 
@@ -174,7 +173,7 @@ elif
 else
 ```
 
-#### switch case 
+#### switch case
 
 ```java 
 public class SwitchExe {
@@ -220,6 +219,19 @@ public class Exe01 {
         }
 
 
+    }
+}
+```
+
+### 1.6 Random类
+
+```java
+public class RandomExe {
+    public static void main(String[] args) {
+        System.out.println("this is the test random class!");
+        Random random = new Random();
+        int number = random.nextInt(10); // produce 0-9 numbers , 10 is the bound 
+        System.out.println(number);
     }
 }
 ```
