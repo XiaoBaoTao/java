@@ -271,3 +271,61 @@ idea的项目结构
 ```
 
 project -> module -> package -> class 
+
+操作步骤： 
+
+1. 创建一个project 
+2. 创建一个module 
+3. 创建package 
+4. 创建class 
+5. 编译代码
+6. 运行代码 
+
+##### idea常用的快捷键 
+
+`psvm`: 快速生成 main 方法
+`sout`: 快速生成print
+`ctrl + cmd + l`: 格式化代码
+`alt + enter`: 代码修正提示
+`ctrl +x`: 剪切一行
+
+
+##### 删除module 
+
+点击module, 右键，选择remove module
+
+
+
+### 1.8 数组 
+
+数组是一组包含数据类型`相同`的容器。 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
