@@ -77,3 +77,9 @@ String name = new String(name1)
         System.out.println(name.concat(sex));
     }
 ```
+
+### StringBuilder 类
+
+StringBuilder是一个可变的字符串类，可以看做是一个容器，里面的长度可以改变。 
+
+使用StringBuilder的主要目的是提高String的操作效率；
