@@ -69,4 +69,11 @@ String name = new String(name1)
 
 `String[] strs = str.split("a");`
 
-
+```java
+    public static void main(String[] args) {
+        String name = "zoe";
+        String sex = "male";
+        System.out.println(String.join("-", name, sex));
+        System.out.println(name.concat(sex));
+    }
+```
