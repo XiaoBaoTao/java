@@ -61,3 +61,12 @@ String name = new String(name1)
 `String json = new ObjectMapper().writeValueAsString(wordCount);`
 
 
+### 字符串替换
+
+`str.replace("a", "b")`
+
+### 字符串切割
+
+`String[] strs = str.split("a");`
+
+
