@@ -16,3 +16,5 @@ String name = new String(name1)
 ```
 ==的时候，原始类型 比较的是值，引用类型，比较的是地址值；
 
+** 字符串的比较 ** 
+`s1.equals(z2)`

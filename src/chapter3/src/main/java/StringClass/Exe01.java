@@ -18,9 +18,15 @@ public class Exe01 {
         char[] s10 = {'z', 'o', 'e'};
         String s2 = new String(s10);
         String s3 = new String("zoe");
+        String s4 = "zoe";
         System.out.println(s1 == s2);
+        System.out.println(s1.equals(s2));
         System.out.println(s1 == s3);
+        System.out.println(s1.equals(s3));
         System.out.println(s2 == s3);
+        System.out.println(s2.equals(s3));
+        System.out.println(s1 == s4);
+        System.out.println(s1.equals(s4));
     }
 
     public static String getJson(Object o) {
