@@ -19,3 +19,22 @@ String name = new String(name1)
 ** 字符串的比较 ** 
 `s1.equals(z2)`
 `equalsIgnorecase()`
+
+### 字符串的遍历
+
+```java
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.printf("please input a string: ");
+        String input = sc.next();
+        // #1 loop the string
+        for (int i = 0; i < input.length(); i++) {
+            System.out.println(input.charAt(i));
+        }
+        // #2 loop the string
+        System.out.println("#2*************");
+        for (char ch: input.toCharArray()) {
+            System.out.println(ch);
+        }
+    }
+```
