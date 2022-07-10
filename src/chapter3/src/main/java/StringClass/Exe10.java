@@ -10,8 +10,9 @@ public class Exe10 {
             System.out.print("please input some content: ");
             String input = sc.next();
             sb.append(input);
-            System.out.println("");
         }
         System.out.println(sb);
+        System.out.println(sb.length());
+        System.out.println(sb.reverse());
     }
 }

@@ -83,3 +83,9 @@ String name = new String(name1)
 StringBuilder是一个可变的字符串类，可以看做是一个容器，里面的长度可以改变。 
 
 使用StringBuilder的主要目的是提高String的操作效率；
+
+`StringBuilder`常见的方法：
++ append: 添加
++ reverse：反转
++ length()：长度
++ toString()： 转换为String 
