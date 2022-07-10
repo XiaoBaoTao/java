@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Exe05 {
     public static void main(String[] args) throws JsonProcessingException {
         Scanner sc = new Scanner(System.in);
-        System.out.printf("please input a string: ");
+        System.out.print("please input a string: ");
         String str = sc.next();
         Map<Character, Integer> wordCount = new HashMap<>();
         for (char ch : str.toCharArray()) {
