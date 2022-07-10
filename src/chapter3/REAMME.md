@@ -38,3 +38,24 @@ String name = new String(name1)
         }
     }
 ```
+
+### 统计字符个数 
+```java
+    public static void main(String[] args) throws JsonProcessingException {
+        Scanner sc = new Scanner(System.in);
+        System.out.printf("please input a string: ");
+        String str = sc.next();
+        Map<Character, Integer> wordCount = new HashMap<>();
+        for (char ch : str.toCharArray()) {
+            if (!wordCount.containsKey(ch)) {
+                wordCount.put(ch, 1);
+            } else {
+                wordCount.put(ch, wordCount.get(ch) + 1);
+            }
+        }
+        String json = new ObjectMapper().writeValueAsString(wordCount);
+        System.out.println(json);
+    }
+```
+将map转换为json;
+`String json = new ObjectMapper().writeValueAsString(wordCount);`
