@@ -18,3 +18,4 @@ String name = new String(name1)
 
 ** 字符串的比较 ** 
 `s1.equals(z2)`
+`equalsIgnorecase()`
