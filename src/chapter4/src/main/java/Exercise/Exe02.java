@@ -1,10 +1,12 @@
-# 集合基础
+package Exercise;
 
-## 集合和数组的区别
+import Student.Student;
 
-+ 数组的容量是固定的，集合的容量是可变的；
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.Scanner;
 
-```java
+public class Exe02 {
     public static void main(String[] args) {
         // 如果超过3个，会自动扩容
         int initSize = 3;
@@ -22,4 +24,4 @@
             System.out.println(student.toJson());
         }
     }
-```
+}
