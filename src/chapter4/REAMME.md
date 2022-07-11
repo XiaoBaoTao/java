@@ -32,3 +32,13 @@
 + `remove()`: 删除
 + `set()`: 修改元素 
 + `get()`: 获取某个元素 
+
+
+## 删除集合中的某个元素 
+
+```java
+        List<String> newNames = names.stream().filter(name -> !name.equals("test"))
+                .collect(Collectors.toList());
+        System.out.println(newNames);
+        names.removeIf(name -> name.equals("test"));
+```
