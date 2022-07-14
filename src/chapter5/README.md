@@ -57,4 +57,15 @@ package com.zhixing.test;
 ### 5. static关键字 
 
 + static修饰的成员变量，在可以被类和对象共享； 比如创建多个类，然后对static 变量进行修改，所有对象的内容都会被修改；
-+ 
+
+
+### 6. 增删改查
+
+
+
+用户:
+
++ `StudentController`: 与用户打交道，类似客服接待, 要处理逻辑传给`StudentService` 
++ `StudentService`: 处理业务逻辑，如果需要访问数据库，调用`StudentDao`
++ `StudentDao`: 访问数据库，执行增删改查
+
