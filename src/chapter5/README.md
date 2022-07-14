@@ -52,3 +52,9 @@ package com.zhixing.test;
 `service`: 业务的逻辑处理 -->负责处理业务逻辑  view
 `controller`: 与用户打交道 -->负责接受请求 controller
 `entry`: 程序入口
+
+
+### 5. static关键字 
+
++ static修饰的成员变量，在可以被类和对象共享； 比如创建多个类，然后对static 变量进行修改，所有对象的内容都会被修改；
++ 
