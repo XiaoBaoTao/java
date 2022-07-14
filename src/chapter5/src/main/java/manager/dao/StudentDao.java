@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class StudentDao {
 
 
-    private static ArrayList<Student> students = new ArrayList<>();
+    private static final ArrayList<Student> students = new ArrayList<>();
 
     public boolean addStudent(Student student) {
         students.add(student);

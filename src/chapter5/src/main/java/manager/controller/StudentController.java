@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 public class StudentController {
 
-    private StudentService studentService = new StudentService();
-    private Scanner sc = new Scanner(System.in);
+    private final StudentService studentService = new StudentService();
+    private final Scanner sc = new Scanner(System.in);
 
     public void start() {
         studentLoop:
