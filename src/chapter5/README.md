@@ -108,6 +108,24 @@ Here is the maven dependency for Gson
 单继承
 可多层继承
 
-可以使用`super.name` 访问**父类**变量 
+可以使用
++ `super.name` 访问**父类**变量 
 
-`this.name`访问当前类变量
++ `this.name`访问`当前类`变量
+
+### 8.方法重写
+```java
+    @Override
+    public String toString() {
+        return new Gson().toJson(this);
+    }
+```
+
+### 9. 权限修饰符 
+
++ `public`: 所有都可以访问
++ `default`: 包(家族内)可以访问
++ `protected`: 儿子或者外孙(有基因)可以访问
++ `private`: 只能自己类访问
+
+
