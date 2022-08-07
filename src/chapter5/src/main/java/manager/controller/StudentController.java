@@ -56,6 +56,7 @@ public class StudentController {
         boolean isEdited = studentService.editStudent(id, name, age, birthday);
         if (isEdited){
             System.out.println("修改成功！");
+            listStudents();
         }else {
             System.out.println("修改失败！");
         }
@@ -124,6 +125,7 @@ public class StudentController {
         boolean isAdded = studentService.addStudent(student);
         if (isAdded) {
             System.out.println("添加成功！");
+            listStudents();
         } else {
             System.out.println("添加失败！");
         }

@@ -100,3 +100,14 @@ Here is the maven dependency for Gson
     </dependency>
 </dependencies>
 ```
+
+
+### 7.继承
+
+当对象之间是`is a` 的时候，就可以用继承 
+单继承
+可多层继承
+
+可以使用`super.name` 访问**父类**变量 
+
+`this.name`访问当前类变量
