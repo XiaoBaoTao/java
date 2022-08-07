@@ -69,3 +69,8 @@ package com.zhixing.test;
 + `StudentService`: 处理业务逻辑，如果需要访问数据库，调用`StudentDao`
 + `StudentDao`: 访问数据库，执行增删改查
 
+
+
+用户请求过来。首先转到controller,  如果需要处理业务逻辑，调用service处理，处理逻辑的时候，如果需要操作数据库，调用Dao. 
+
+在domain处创建objects. 

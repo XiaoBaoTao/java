@@ -1,6 +1,7 @@
 package manager.entry;
 
 import manager.controller.StudentController;
+import manager.controller.TeacherController;
 
 import java.util.Scanner;
 
@@ -21,6 +22,8 @@ public class InfoManagerEntry {
                     break;
                 case 2:
                     System.out.println("老师");
+                    TeacherController teacherController = new TeacherController();
+                    teacherController.start();
                     break;
                 case 3:
                     System.out.println("退出");
