@@ -74,3 +74,29 @@ package com.zhixing.test;
 用户请求过来。首先转到controller,  如果需要处理业务逻辑，调用service处理，处理逻辑的时候，如果需要操作数据库，调用Dao. 
 
 在domain处创建objects. 
+
+
+### 7. convert list of object to json 
+
+Use GSON library for that. Here is the sample code
+```java
+List<String> foo = new ArrayList<String>();
+foo.add("A");
+foo.add("B");
+foo.add("C");
+
+String json = new Gson().toJson(foo );
+```
+
+Here is the maven dependency for Gson
+```xml
+<dependencies>
+    <!--  Gson: Java to Json conversion -->
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.2.2</version>
+        <scope>compile</scope>
+    </dependency>
+</dependencies>
+```
